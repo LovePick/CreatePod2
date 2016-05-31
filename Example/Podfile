@@ -4,7 +4,7 @@ target 'CreatePod2_Example' do
   pod 'CreatePod2', :path => '../'
 
   target 'CreatePod2_Tests' do
-    inherit! :search_paths
+    pod 'CreatePod2', :path => '../'
 
     pod 'FBSnapshotTestCase'
   end

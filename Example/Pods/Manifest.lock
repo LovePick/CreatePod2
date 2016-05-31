@@ -1,0 +1,21 @@
+PODS:
+  - CreatePod2 (0.1.0)
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CreatePod2 (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CreatePod2:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CreatePod2: 07c14668898d287a4b61ec7bb558ee745db077e4
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+
+COCOAPODS: 0.39.0

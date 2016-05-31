@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import CreatePod2
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let pick = PickyTest()
+        pick.pickyLog()
     }
 
     override func didReceiveMemoryWarning() {
